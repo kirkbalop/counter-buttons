@@ -16,10 +16,10 @@ function plusOne() {
     counter.textContent = count
     if(count > 0){
         counter.style.color = 'green'
-        counterContain.style.boxShadow = '5px 10px green'
+        counterContain.style.border = '5px green solid'
     } else if (count === 0){
         counter.style.color = 'black'
-        counterContain.style.boxShadow = '5px 10px black'
+        counterContain.style.border = '5px black solid'
     }
 }
 
@@ -29,9 +29,9 @@ function minusOne(){
     counter.textContent = count
     if(count < 0){
         counter.style.color = 'red'
-        counterContain.style.boxShadow = '5px 10px red'
+        counterContain.style.border = '5px red solid'
     } else if (count === 0){
         counter.style.color = 'black'
-        counterContain.style.boxShadow = '5px 10px black'
+        counterContain.style.border = '5px black solid'
     }
 }
