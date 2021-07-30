@@ -1,4 +1,4 @@
-// DOM selectors
+// DOM selectors and event listeners
 const increment = document
     .querySelector('#increment')
     .addEventListener('click', plusOne)
@@ -14,16 +14,20 @@ let count = 0
 function plusOne() {
     count++
     console.log('PLUS')
+    if(count === 69){
+        counter.innerHTML = `${count}<sup> ...nice</sup>`
+    } else{
     counter.textContent = count
+    }
     if(count > 0){
-        counter.style.color = 'green'
-        counterContain.style.border = '5px green solid'
-        counterTitle.style.color = 'green'
+        counter.style.color = 'mediumSeaGreen'
+        counterContain.style.border = '5px mediumSeaGreen solid'
+        counterTitle.style.color = 'mediumSeaGreen'
     } else if (count === 0){
         counter.style.color = 'black'
         counterContain.style.border = '5px black solid'
         counterTitle.style.color = 'black'
-    }
+    } 
 }
 
 function minusOne(){
