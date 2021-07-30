@@ -13,12 +13,7 @@ let count = 0
 // Functions
 function plusOne() {
     count++
-    console.log('PLUS')
-    if(count === 69){
-        counter.innerHTML = `${count}<sup> ...nice</sup>`
-    } else{
     counter.textContent = count
-    }
     if(count > 0){
         counter.style.color = 'mediumSeaGreen'
         counterContain.style.border = '5px mediumSeaGreen solid'
@@ -32,7 +27,6 @@ function plusOne() {
 
 function minusOne(){
     count--
-    console.log('MINUS')
     counter.textContent = count
     if(count < 0){
         counter.style.color = 'red'

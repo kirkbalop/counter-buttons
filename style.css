@@ -31,3 +31,7 @@
     color: mediumSeaGreen !important;
     transition: color 1.5s;
 }
+
+sup{
+    font-size: 10px;
+}
