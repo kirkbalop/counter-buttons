@@ -1,10 +1,10 @@
 #counter {
     color: black;
-    transition: color 1.5s;
+    transition: color 1s;
 }
 
 #counterTitle{
-    transition: color 1.5s
+    transition: color 1s
 }
 
 #counterContain{
@@ -15,21 +15,21 @@
     border: 5px black solid;
     border-radius: 10px;
     box-shadow: 5px 10px black ;
-    transition: border 1.5s;
+    transition: border 1s;
 }
 
 .btn-danger:hover{
     background-color: white !important;
     border-color: red !important;
     color: red !important;
-    transition: color 1.5s;
+    transition: color 1s;
 }
 
 .btn-success:hover{
     background-color: white !important;
     border-color: mediumSeaGreen !important;
     color: mediumSeaGreen !important;
-    transition: color 1.5s;
+    transition: color 1s;
 }
 
 sup{
