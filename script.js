@@ -7,6 +7,7 @@ const decrement = document
     .addEventListener('click', minusOne)
 const counter = document.querySelector('#counter')
 const counterContain = document.querySelector('.main-container')
+const counterTitle = document.querySelector('#counterTitle')
 let count = 0
 
 // Functions
@@ -17,9 +18,11 @@ function plusOne() {
     if(count > 0){
         counter.style.color = 'green'
         counterContain.style.border = '5px green solid'
+        counterTitle.style.color = 'green'
     } else if (count === 0){
         counter.style.color = 'black'
         counterContain.style.border = '5px black solid'
+        counterTitle.style.color = 'black'
     }
 }
 
@@ -30,8 +33,10 @@ function minusOne(){
     if(count < 0){
         counter.style.color = 'red'
         counterContain.style.border = '5px red solid'
+        counterTitle.style.color = 'red'
     } else if (count === 0){
         counter.style.color = 'black'
         counterContain.style.border = '5px black solid'
+        counterTitle.style.color = 'black'
     }
 }

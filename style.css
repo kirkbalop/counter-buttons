@@ -1,13 +1,33 @@
 #counter {
-    color: black
+    color: black;
+    transition: color 1.5s;
+}
+
+#counterTitle{
+    transition: color 1.5s
 }
 
 #counterContain{
-    margin-top: 30vh
+    margin-top: 30vh;
 }
 
 .main-container{
     border: 5px black solid;
     border-radius: 10px;
-    box-shadow: 5px 10px black 
+    box-shadow: 5px 10px black ;
+    transition: border 1.5s
+}
+
+.btn-danger:hover{
+    background-color: white !important;
+    border-color: red !important;
+    color: red !important;
+    transition: color 1.5s;
+}
+
+.btn-success:hover{
+    background-color: white !important;
+    border-color: green !important;
+    color: green !important;
+    transition: color 1.5s;
 }
